@@ -33,6 +33,17 @@ int main() {
         printf("Rainha: Esquerda\n");
     }
     
+//cavalo 
+int movimentocompleto = 1;
+
+while (movimentocompleto--)
+{
+    for (int i = 0; i < 2; i++)
+    {
+        printf("Cavalo: cima\n");
+    } printf("Cavalo: direita\n");
+    
+}
 
 
 
