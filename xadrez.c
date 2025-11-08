@@ -12,9 +12,12 @@ int main() {
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
   
 
-    int coluna = 0;  // posição inicial do bispo (coluna)
+   // posição inicial do bispo (coluna)
 
-    /
+    for (int linha = 1; linha <= 5; linha++) {
+     
+        printf("Bispo: Linha %d, Coluna %d\n", linha, linha);
+    }
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
