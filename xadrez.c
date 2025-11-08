@@ -33,7 +33,7 @@ int main() {
         printf("Rainha: Esquerda\n");
     }
     
-//cavalo 
+//cavalo cima cima direita
 int movimentocompleto = 1;
 
 while (movimentocompleto--)
@@ -44,7 +44,16 @@ while (movimentocompleto--)
     } printf("Cavalo: direita\n");
     
 }
+//cavalo baixo baixo direita
+int movimentocompletobaixo = 1;
+while (movimentocompletobaixo--)
+{ 
+    for (int i = 0; i < 2; i++)
+    {
+        printf("Cavalo: baixo\n");
+    } printf("Cavalo: esquerda\n");
 
+}
 
 
 
